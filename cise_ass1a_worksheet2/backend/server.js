@@ -26,5 +26,5 @@ server.get("/api/articles/:id", (req, res) => {
 
 server.listen(
   PORT,
-  console.log("server is working and listening on port ${PORT}")
+  console.log(`server is working and listening on port ${PORT}`)
 );
